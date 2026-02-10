@@ -1,0 +1,18 @@
+The drake equation visibly is a complicated tool therefore we created a guide, For Colab code(.ipynb):
+Click file name, it redirects and open the actual code, it will then show open in colab on the top, click that to visit colab.
+In colab it will show the code in a cell, click the button that looks like play to run, it would never run itself, you need to put in parameters, we will discus that later. You clicking
+the play button is like presenting it to colab's memory to accept.
+After that as drake equation is relying on very accurate parameters, any slight error can cause red lines, don't be scared we will fix that and replace that with camer error presenters
+to give drake eqaution parameters you need to type this in a new cell(to open a new cell take mouse pointer to the edge of the border of the present cell it will show +code and +text, click + code)
+in the new cell type something similar to this: "name_of_equation_holder = DrakeEquation("name of the galaxy", Rate_of_star_formation, Fraction_of_stars_with_planets, Number of habitable planets, 	Fraction that develop life, Fraction of intelligent life, 	Fraction of communicative life, Longevity of civilization)"
+after running that, simply do this "name_of_equation_holder.calculation(). Note: other errors like Overflow calculations could occur, use the built in gemini to fix that.
+
+For the .py class:
+This is our fallback, run the if colab doesn't work or you simply like it, you will need to download python first(https://www.python.org/downloads/) after doing that copy the code after clicking file name
+and then paste it in your python and click the run button or f5 depending on your computer, there will be no ai to help you, you will need to debig your self and you still need this:
+"name_of_equation_holder = DrakeEquation("name of the galaxy", Rate_of_star_formation, Fraction_of_stars_with_planets, Number of habitable planets, 	Fraction that develop life, Fraction of intelligent life, 	Fraction of communicative life, Longevity of civilization)"
+after that click run again, if it works, you are on the right path otherwise consult us or start debugging yourself through researches or knowledge. Note: our code was built on Pyhon 3.14.3.
+To contact us read the security veneralbilities file at https://github.com/Hezy-219/Drake-equation-simulation/blob/main/SECURITY.md.
+ Example of this ("name_of_equation_holder = DrakeEquation("name of the galaxy", Rate_of_star_formation, Fraction_of_stars_with_planets, Number of habitable planets, 	Fraction that develop life, Fraction of intelligent life, 	Fraction of communicative life, Longevity of civilization)" is :
+# Replace the values with your scientific estimates
+my_galaxy = DrakeEquation("Andromeda", 10, 0.5, 2, 1, 0.1, 0.1, 10000)
